@@ -1,24 +1,16 @@
-# README
+# rails 5 docker template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a template for rails 5 api app using docker
 
-Things you may want to cover:
+This template includes:
 
-* Ruby version
+* mysql version 5.6
+* ruby 2.4
 
-* System dependencies
+Start server
 
-* Configuration
+```
+docker-compose up
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Type 'localhost:3000' in your browser
